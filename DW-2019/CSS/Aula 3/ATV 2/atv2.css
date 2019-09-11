@@ -1,0 +1,98 @@
+body {
+    font-family: Calibri;
+    text-align: center;
+    margin: 0;
+}
+
+#header {
+    background-image: url('fundo.jpg');
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    margin: 0;
+}
+
+#nav {
+    background-image: url('fundo.jpg');
+    width: 15%;
+    height: 100%;
+    top: 80px;
+    right: 0;
+    position: fixed;
+    border-width: 5px;
+}
+
+#main {
+    background-image: url('fundo2.jpg');
+    width: 85%;
+    height: 100%;
+    top: 80px;
+    position: absolute;
+    border-top: 2px dotted rgb(255, 250, 250);
+    border-right: 2px dotted rgb(255, 250, 250);
+    border-width: 1px;
+}
+
+p {
+    color: rgb(255,250,250);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+span {
+    color: rgb(255,165,0);
+}
+
+.titulo {
+    color: blue;
+    font-size: 14pt;
+}
+
+table {
+    margin: auto;
+}
+
+th.links {
+    text-align: justify;
+    font-size: 11pt;
+    font-family: Verdana;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.destaque {
+    font-size: 36pt;
+}
+
+td, .itens {
+    color: rgb(255,250,250);
+    border: 2px double rgb(255,250,250);
+    text-align: center;
+}
+
+th.itens, caption.itens {
+    color: rgb(255,250,250) ;
+    border: 2px double rgb(255,250,250);
+    text-align: center;
+}
+
+caption {
+    color: rgb(30,144,255);
+    font-weight: bold;
+}
+
+#firefox {
+    width: auto;
+    height: 45px;
+}
+
+/* Pseudo-classes */
+th.links:hover {
+    opacity: .75;
+    color: rgb(255,250,250);
+}
+

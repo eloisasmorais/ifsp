@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="transicao.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/>
+		<title> Exemplos -Transições com CSS</title>
+	</head>
+		<body>
+
+			<h2>Transição em aparência de links</h2>
+			<p class="link1"><a href="#">Exemplo 1</a> - link com efeito normal, sem transição</p>
+			<p class="link2"><a href="#">Exemplo 2</a> - link usando transição</p>
+
+			<h2>Transição em imagens</h2>
+			<p>Passe o mouse na imagem</p>
+
+			<img class="imagem" src="
+			https://lh4.googleusercontent.com/-5AynEWyOmBA/UAXoQa69wPI/AAAAAAAAA-M/VNCshIJWHm0/s400/01%2520yoshi.jpg" alt="" />
+			
+			<h2>Transição na cor de fundo da div</h2>
+			<p>Primeiro, a div com ease só no efeito hover:</p>
+			<div class="div2"> </div>
+			
+			<p>Agora, ease na div normal (herdada pelo hover):</p>
+			<div class="div1"> </div>
+			
+			<h2>Transição em movimento</h2>
+			<p>Passe o mouse no quadrado</p>
+			<div id="divmove"> </div>
+			
+			<h2>Transição em campos de formulário</h2>
+			<p>Clique no campo para ver o efeito na cor de fundo</p>
+			
+			
+			<form>
+			<input type="text" width="150"/>
+			</form>
+			
+			<h2>Transição em outras propriedades de CSS </h2>
+			<p>Passe o mouse no texto, que usa a propriedade text-shadow com desfoque de 5px, para ver a transição suave para text-shadow com desfoque de 0. Além disso, o texto também muda da cor transparent para um tom de cinza.
+			<p class="textosombra">Passe o mouse</p>
+			
+			<h2>Transição timings e delay</h2>
+			<p>Passe o mouse para ver a diferença entre cada tipo de transition-timing-function, ou como se desenvolve a transição - no exemplo, na mudança de largura das barras (divs). Todas usam 3 segundos de transição.</p>
+			<div class="trasitionsdivs">
+			<div id="easediv">Ease</div>
+			<div id="lineardiv">Linear</div>
+			<div id="easeindiv">Ease-in</div>
+			<div id="easeout">Ease-out</div>
+			<div id="easeinoutdiv">Ease-in-out</div>
+			</div>
+			
+			<p>As mesmas divs, agora com delay de 2 segundos:</p>
+			<div class="trasitionsdivs">
+			<div id="easediv-delay">Ease</div>
+			<div id="lineardiv-delay">Linear</div>
+			<div id="easeindiv-delay">Ease-in</div>
+			<div id="easeout-delay">Ease-out</div>
+			<div id="easeinoutdiv-delay">Ease-in-out</div>
+			</div>
+			
+			<h2>Transição em animação</h2>
+			<p>Um exemplo básico de animação com imagem que recebeu filtro. Ela perde o filtro em dois segundos, e então, com mais dois segundos, recebe a propriedade left:100%. Os movimentos são suavizados por transição.</p>
+			<div id="animacao">
+			<img src="https://lh4.googleusercontent.com/-5AynEWyOmBA/UAXoQa69wPI/AAAAAAAAA-M/VNCshIJWHm0/s400/01%2520yoshi.jpg" alt="" class="imagemanimada" />
+			</div>
+			
+		</body>
+</html>

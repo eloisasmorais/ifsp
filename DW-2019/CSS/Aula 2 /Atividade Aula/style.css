@@ -1,0 +1,31 @@
+/* * {
+    height: 100%;
+} */
+
+body {
+    /* background-color: #A3FFB3; */
+    /* background: url(mocherino.jpg) no-repeat;
+    background-size: cover;
+    background-position: left top; */
+    /* background-image: linear-gradient(#A24FB3, #93E02F); */
+    /* background-image: radial-gradient(ellipse, yellow, red); */
+    /* background: linear-gradient(#d8a6cb, #9996cb);
+    background-repeat: no-repeat; */
+    background: linear-gradient(#A24FB3, #93E02F);
+}
+
+p {
+    color: crimson;
+}
+
+img {
+    /* filter: blur(.6px); */
+    /* filter: brightness(130%); */
+    /* filter: contrast(75%);  */
+    /* filter: drop-shadow(20px 5px 10px #A357B3); */
+    /* filter: grayscale(35%); */
+    /* filter: hue-rotate(270deg); */
+    /* filter: invert(510%); */
+    /* filter: saturate(150%); */
+    filter: sepia(50%);
+}

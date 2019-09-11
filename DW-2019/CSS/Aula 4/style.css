@@ -1,0 +1,42 @@
+table, th, td, tr {
+    border: .5px solid purple;
+    background-color: rgb(197, 149, 165);
+    /* background-image: url('bloodborne.jpeg'); */
+    width: 75%;
+    margin: auto;
+    color: rgb(61, 5, 61);
+    caption-side: bottom;
+}
+
+.form {
+    background-image: linear-gradient(50deg, #04C8DE, #FF5EDF);
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 );
+    padding: 25px;
+
+}
+
+input {
+    font-family: 'Gugi', cursive;
+    text-align: center;
+}
+
+input:hover, input:focus {
+    background-color: black;
+    color: white;
+}
+
+img {
+    border: 2px solid red;
+    transform: matrix(1, -0.3, 0, 1, 0, 2);
+}
+
+.teste {
+    background-color: black;
+    transform: matrix(1, -0.3, 0, 1, 0, 2);
+    width: 500px;
+    height: 500px;
+    color: white;
+}

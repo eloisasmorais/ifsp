@@ -1,0 +1,220 @@
+body {
+	font-family:'Raleway', sans-serif;
+	cursor:crosshair;
+}
+
+h2{
+text-align:center;	
+
+}
+
+.link1 a {
+color:#000;
+font-weight:bold;
+}
+
+.link1 a:hover {
+color:#f00;
+text-decoration:none;
+}
+
+.link2 a{
+color:#000;
+font-weight:bold;
+transition:0.5s ease-in;
+}
+
+.link2 a:hover {
+color:#f00;
+text-decoration:none;
+}
+
+.div1 {
+background:red;
+width:80%; 
+height:40px; 
+border:1px solid #999; 
+transition:0.5s ease-out;
+}
+
+.div1:hover {
+background:yellow;
+}
+
+.div2 {
+background:yellow;
+width:80%; 
+height:40px;
+border:1px solid #999; 
+}
+
+.div2:hover {
+background:blue;
+transition:0.5s ease-out;
+}
+
+#divmove {
+width:50px; 
+height:50px; 
+background-color:#0C3;
+position:relative; 
+top:0px; 
+left:0px;
+transition:0.5s ease-in;
+}
+
+#divmove:hover {
+left:30px;
+}
+
+input:focus{  
+transition:0.5s ease-in;
+background:#CCC;   
+} 
+
+.imagem {
+width:80px;
+height:100px;
+transition:0.3s ease-in;	
+}
+
+.imagem:hover {
+width:269px;
+height:300px;	
+}
+
+.textosombra {
+color:transparent;
+text-shadow:0 0 5px #999;
+transition:0.5s ease-in;	
+font:2em Arial;
+}
+
+.textosombra:hover {
+color:#999;
+text-shadow:none;
+}
+
+.trasitionsdivs {
+width:100%;
+}
+
+.trasitionsdivs div{ 
+width:20%;
+background-color:#DDD;
+margin:5px 0; 
+border:1px solid #999; 
+padding:3px; 
+height:20px
+}
+
+.trasitionsdivs:hover #easediv {
+width:90%;
+transition:3s ease;
+}
+
+.trasitionsdivs:hover #lineardiv {
+width:90%;
+transition:3s linear;
+}
+
+.trasitionsdivs:hover #easeindiv  {
+width:90%;
+transition:3s ease-in;
+}
+
+.trasitionsdivs:hover #easeout {
+width:90%;
+transition:3s ease-out;
+}
+
+.trasitionsdivs:hover #easeinoutdiv {
+width:90%;
+transition:3s ease-in-out;
+}
+
+.trasitionsdivs #easediv {
+transition:3s ease;
+}
+
+.trasitionsdivs #lineardiv {
+transition:3s linear;
+}
+
+.trasitionsdivs #easeindiv  {
+transition:3s ease-in;
+}
+
+.trasitionsdivs #easeout {
+transition:3s ease-out;
+}
+
+.trasitionsdivs #easeinoutdiv {
+transition:3s ease-in-out;
+}
+
+.trasitionsdivs:hover #easediv-delay {
+width:90%;
+transition:3s ease 2s;
+}
+
+.trasitionsdivs:hover #lineardiv-delay {
+width:90%;
+transition:3s linear 2s;
+}
+
+.trasitionsdivs:hover #easeindiv-delay  {
+width:90%;
+transition:3s ease-in 2s;
+}
+
+.trasitionsdivs:hover #easeout-delay {
+width:90%;
+transition:3s ease-out 2s;
+}
+
+.trasitionsdivs:hover #easeinoutdiv-delay {
+width:90%;
+transition:3s ease-in-out 2s;
+}
+
+.trasitionsdivs #easediv-delay {
+transition:3s ease 2s;
+}
+
+.trasitionsdivs #lineardiv-delay {
+transition:3s linear 2s;
+}
+
+.trasitionsdivs #easeindiv-delay  {
+transition:3s ease-in 2s;
+}
+
+.trasitionsdivs #easeout-delay {
+transition:3s ease-out 2s;
+}
+
+.trasitionsdivs #easeinoutdiv-delay {
+transition:3s ease-in-out 2s;
+}
+
+#animacao {
+width:80%;
+height:100px;
+}
+
+#animacao img{
+width:80px;
+height:100px;
+position:relative;
+left:0;
+transition-property:filter, left;
+transition-duration:2s,2s;
+transition-delay:0s,2s;
+filter:blur(10px);
+}
+
+#animacao:hover img {
+filter:blur(0px);
+left:100%
+}

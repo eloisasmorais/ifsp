@@ -1,0 +1,80 @@
+body {
+    font-family: Tahoma;
+    text-align: center;
+}
+
+#aside {
+    width: 30%;
+    background-image: url('fundo2.jpg');
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#main {
+    width: 70%;
+    background-image: url('fundo.jpg');
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+h1 {
+    color: whitesmoke;
+    font-style: italic;
+    text-transform: uppercase;
+    border: 2px dotted mistyrose;
+}
+
+h3 {
+    color: whitesmoke;
+}
+
+#main h3 {
+    background-image: url('fundo3.jpg');
+}
+
+#aside h3 {
+    color: maroon;
+    background-image: url('fundo4.jpg');
+}
+
+ul {
+    color: lightgray;
+    font-size: 10pt;
+    font-weight: bold;
+    line-height: 35px;
+    list-style-image: url('estrela.png');
+    text-align: left;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    border: 3px dashed indianred;
+}
+
+span {
+    text-decoration: underline;
+    color: gold;
+}
+
+h1:hover, span:hover {
+    background-color: crimson;
+    color: lightpink;
+    border-color: lightpink;
+}
+
+h3:hover {
+    color: indianred;
+}
+
+img:hover {
+    transform: rotate(-5deg);
+    border: 5px double gold;
+}

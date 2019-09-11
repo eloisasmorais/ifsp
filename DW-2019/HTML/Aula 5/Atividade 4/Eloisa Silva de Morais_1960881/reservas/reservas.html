@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Eloisa Silva de Morais">
+        <meta name="description" content="Atividade aula 5">
+        <meta name="keywords" content="Desenvolvimento web, aula 4, formulários, blocos, elementos semânticos">
+        <meta name="generator" content="Visual Studio Code">
+        <link rel="shortcut icon" href="imagens/logo.jpg" type="image/x-icon">
+        <title>Kids Fashion</title>
+    </head>
+    <body>
+        <header>
+            <h1>Kids Fashion</h1>
+            <ul>
+                <li><a href="../index.html">Principal</a></li>
+                <li><a href="reservas.html">Reserva</a></li>
+            </ul>
+        </header>
+        <h2>Reservas online</h2>
+        <form method="GET" action="form.php">
+            <label>Nome:</label>
+            <input type="text" name="nome" maxlength="25" placeholder="Informe o nome" autofocus> 
+            <label>DDD:</label>
+            <input type="number" name="DDD" maxlength="3" placeholder="DDD">
+            <label>Telefone:</label>
+            <input type="number" name="telefone" maxlength="9" placeholder="Telefone">
+            <br>
+            <label>E-mail:</label>
+            <input type="text" placeholder="e-mail">
+        </form>
+        <main>
+            <table border="1">
+                <caption>Outras Opções</caption>
+                <tr>
+                    <td><img src="../imagens/camiseta feminina1.jpg" alt="Roupa Feminina" width="200"></td>
+                    <td><img src="../imagens/camiseta feminina2.jpg" alt="Roupa Feminina" width="200"></td>
+                    <td><img src="../imagens/camiseta feminina3.jpg" alt="Roupa Feminina" width="200"></td>
+                </tr>
+                <tr>
+                    <th colspan="3">Roupas Femininas</th>
+                </tr>
+                <tr>
+                    <td><img src="../imagens/camiseta masculina1.jpg" alt="Roupa Masculina" width="200"></td>
+                    <td><img src="../imagens/camisa masculina 2.jpg" alt="Roupa Masculina" width="200"></td>
+                    <td><img src="../imagens/regata masculina 1.jpg" alt="Roupa Masculina" width="200"></td>
+                </tr>
+                <tr>
+                    <th colspan="3">Roupas Masculinas</th>
+                </tr>
+            </table>
+        </main>
+        <form method="GET" action="form.php">
+            <label>Tamanhos:</label>
+            <select name="tamanhos">
+                <option>Selecione...</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>6</option>
+                <option>8</option>
+                <option>10</option>
+                <option>12</option>
+                <option>14</option>
+            </select>
+            <label>Cor:</label>
+            <input type="radio" name="cor">Branca
+            <input type="radio" name="cor">Azul
+            <input type="radio" name="cor">Rosa
+            <br>
+            <label>Observações:</label>
+            <br>
+            <textarea name="observacoes" cols="80" rows="3" placeholder="Informações adicionais sobre sua compra."></textarea>
+            <br>
+            <button type="submit">Enviar Pedido</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </body>
+</html>

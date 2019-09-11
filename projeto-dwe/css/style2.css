@@ -1,0 +1,152 @@
+.seguranca  {
+    background-color: #1bb14d;
+}
+
+.apache {
+    background-color: #81297c;
+}
+
+.secondary-wrapper {
+    margin: 60px auto 60px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1em; 
+}
+
+h3 {
+    margin: 10px 0 0 0;
+}
+
+.secondary-wrapper p {
+    margin: 20px 0;
+}
+
+p,
+figcaption { 
+    line-height: 2rem;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+span {
+    font-weight: bold;
+    color: #000;
+}
+
+.link-interno {
+    text-decoration: underline;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto 30px auto;
+    justify-content: space-around;
+}
+
+.card > h1 {
+    font-size: 36px;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card {
+    width: 100%;
+    box-shadow: 0 3px 5px;
+    margin: 50px 0 0 0;
+    padding: 70px 0;
+}
+
+.sh-img {
+    width: 95%;
+}
+
+figcaption {
+    margin-bottom: 15px 0;
+    font-size: .8rem;
+}
+
+figure {
+    margin: 25px auto 0 auto;
+}
+
+table {
+    margin: 30px auto;
+    width: 80%;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    padding: 20px;
+}
+
+table td {
+    margin: 10px 0;
+    font-weight: 300;
+    color: rgb(65, 63, 63);
+}
+
+@media screen and (min-width:900px) {
+    .secondary-wrapper {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.5em; 
+    }
+
+    .secondary-wrapper h1,
+    .secondary-wrapper h2 , 
+    .secondary-wrapper p {
+        text-align: justify;
+    }
+
+    .cards {
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 30%;
+        padding: 60px 0;
+        margin-bottom: 40px;
+    }
+
+    .card h1, 
+    .card p {
+        text-align: center;
+    }
+
+    figure {
+        width: 40%;
+    }
+
+    figcaption {
+        font-size: 1rem;
+    }
+
+    table {
+        width: 80%;
+    }
+
+    table th {
+        font-size: 24px;
+    }
+
+    .footer p {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 5px;
+    }
+}

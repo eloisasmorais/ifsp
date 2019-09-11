@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="author" content="Eloisa Morais"/>
+        <meta name="description" content="Atividade extra"/>
+        <meta name="keywords" content="atividade, extra, aula 6"/>
+        <meta name="generator" content="Visual Studio Code"/>
+        <link rel="shortcut icon" href="img/if.ico" type="image/x-icon" />
+        <title>Formulário</title>
+    </head>
+    <body>
+        <h1>Bem vindo ao site <img src="img/if.ico" alt="Logo do IF" height="25" width="25"/></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="formulariorevisao.html">Página de Inscrição</a></li>
+            </ul>
+        </nav>
+        <section>
+            <form method="POST">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label>Nome:</label>
+                    <br/>
+                    <input type="text" size="20" maxlength="20" placeholder="Digite seu nome" autofocus/>
+                    <br/>
+                    <label>Sobrenome:</label>
+                    <br/>
+                    <input type="text" maxlength="15" placeholder="Digite seu sobrenome"/>
+                    <br/>
+                    <label>Nascimento:</label>
+                    <br/>
+                    <input type="text" name="dia" placeholder="DD"/>
+                    <input type="text" name="mes" placeholder="MM"/>
+                    <input type="text" name="ano" placeholder="AAAA"/>
+                    <br/>
+                    <label>RG:</label>
+                    <br/>
+                    <input type="text" name="rg" size="13"/>
+                    <br/>
+                    <label>CPF:</label>
+                    <br/>
+                    <input type="text" name="cpf" size="9"/> - <input type="text" name="cpf" size="2"/>
+                </fieldset>
+                <fieldset>
+                    <legend>Dados de Endereço</legend>
+                    <label>Rua:</label>
+                    <br/>
+                    <input type="text"/>
+                    <br/>
+                    <label>Número:</label>
+                    <br/>
+                    <input type="text" name="numero"/>
+                    <br/>
+                    <label>Bairro:</label>
+                    <br/>
+                    <input type="text"/>
+                    <br/>
+                    <label>Estado:</label>
+                    <br/>
+                    <select name="estado">
+                        <option>Acre</option>
+                        <option>Alagoas</option>
+                        <option>Amapá</option>
+                        <option>Amazonas</option>
+                        <option>Bahia</option>
+                        <option>Ceará</option>
+                        <option>Distrito Federal</option>
+                        <option>Espirito Santo</option>
+                        <option>Goiás</option>
+                        <option>Maranhão</option>
+                        <option>Mato Grosso</option>
+                        <option>Mato Grosso do Sul</option>
+                        <option>Minas Gerais</option>
+                        <option>Pará</option>
+                        <option>Paraíba</option>
+                        <option>Paraná</option>
+                        <option>Pernambuco</option>
+                        <option>Piauí   </option>
+                        <option>Rio de Janeiro</option>
+                        <option>Rio Grande do Norte</option>
+                        <option>Rio Grande do Sul</option>
+                        <option>Rondônia</option>
+                        <option>Roraima</option>
+                        <option>Santa Catarina</option>
+                        <option>São Paulo</option>
+                        <option>Sergipe</option>
+                        <option>Tocantins</option>
+                    </select>
+                    <br/>
+                    <label>CEP:</label>
+                    <br/>
+                    <input type="text"/> - <input type="text"/>
+                </fieldset>
+                <fieldset>
+                    <legend>Dados de login</legend>
+                    <label>Email</label>
+                    <br/>
+                    <input type="text"/>
+                    <br/>
+                    <label>Imagem de perfil:</label>
+                    <br/>
+                    <input type="image"/>
+                    <br/>
+                    <label>Login de usuário:</label>
+                    <br/>
+                    <input type="text"/>
+                    <br/>
+                    <label>Senha:</label>
+                    <br/>
+                    <input type="password"/>
+                    <br/>
+                    <label>Confirme a senha:</label>
+                    <br/>
+                    <input type="password"/>
+                </fieldset>
+                <br/>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </form>
+        </section>
+        <h2><a href="http://portal.ifspguarulhos.edu.br/" target="_blank">Para obter mais informações acesse o Portal</a></h2>
+        <footer>
+            <p>Desenvolvido por Eloisa Silva de Morais - 1960881</p>
+        </footer>
+    </body>
+</html>

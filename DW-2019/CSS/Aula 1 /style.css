@@ -1,0 +1,56 @@
+body {
+    background-color: #6c76ac;
+}
+
+p {
+    font-style: italic; 
+    font-weight: bold;
+    /* font-variant: small-caps; */
+    font-family: 'comic sans', fantasy;
+    line-height: 10pt;
+    font-family: 'Anton', sans-serif;
+}
+
+ul {
+    margin-left: 15px;
+    list-style-type: symbols('🤙');
+}
+
+.one {
+    color: #ff0000;
+    text-decoration: line-through;
+}
+
+.two {
+    color: #ffa500;
+    text-indent: 30px;
+}
+
+.three {
+    color: #ffff00;
+    text-transform: uppercase;
+}
+
+.four {
+    color: #008000;
+    letter-spacing: 15px;
+}
+
+.five {
+    color: #0000ff;
+    word-spacing: 10px;
+}
+
+.six {
+    color: #4b0082;
+    text-shadow: 5px 2px 3px #ffff00;
+    line-height: 25px;
+}
+
+.seven {
+    color: #ee82ee;
+}
+
+#corlinha {
+    color: red;
+}

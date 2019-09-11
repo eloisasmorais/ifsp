@@ -1,0 +1,40 @@
+body {
+    background-image: linear-gradient(to right, darkkhaki 0%, ivory 50%, darkkhaki 100%);
+    font-family: Verdana;
+    text-align: center;
+}
+
+h1 {
+    background-color: olive;
+    font-size: 2rem;
+    color: ivory;
+    text-shadow: 2px 2px darkkhaki;
+}
+
+#container {
+    display: flex;
+    background-image: radial-gradient(ivory 0%, olive 100%);
+    align-items: center;
+    align-content: space-around;
+    width: 95%;
+    margin: auto;
+}
+
+h3 {
+    width: 95%;
+    height: 30px;
+    color: maroon;
+    font-weight: bold;
+    background-image: radial-gradient(ivory 0%, olive 100%);
+    word-spacing: 9cm;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+/* Pseudo-elementos */ 
+img:hover {
+    filter: blur(2px);
+}
