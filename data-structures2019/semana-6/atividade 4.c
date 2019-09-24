@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 void funcao_troca_inteiros(int *a, int *b) {
   int *aux; //declara ponteiro para inteiro
   aux = (int *) malloc (sizeof(int)); //aloca memória com tamanho de 1 inteiro (4 bytes)

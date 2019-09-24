@@ -53,5 +53,6 @@ int main() {
     }
   }
 
+  liberaOperacao(p);
   return 0;
 }
