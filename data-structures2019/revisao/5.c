@@ -24,7 +24,8 @@ int main() {
     printf("Idade: %d\n", pessoas[i].idade);
     printf("Endereço: %s\n", pessoas[i].endereco);
   }
-
+  
+  free(pessoas);
   return 0;
 }
 
@@ -35,15 +36,12 @@ Cadastro *alocaCadastro(int n) {
   for(int i=0;i<n;i++){
     printf("Digite o nome da pessoa: ");
     getchar();
-    fgets(cad[i].nome,40,stdin);//substitui o \n no final da string por \0
-    cad[i].nome[strlen(cad[i].nome)-1]='\0';
+    fgets(cad[i].nome,40,stdin);
     printf("Digite a idade da pessoa: ");
     scanf("%d",&cad[i].idade);
-    printf("Digite o endereco da pessoa:  ");
+    printf("Digite o endereco da pessoa: ");
     getchar();
     fgets(cad[i].endereco,30,stdin);
-    //substitui o \n no final da string por \0
-    cad[i].endereco[strlen(cad[i].endereco)-1]='\0';
   }
   return cad;
 }
