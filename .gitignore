@@ -1,4 +1,11 @@
 class-notes
+org.eclipse.swt
+.metadata
+.settings
+bin
+.classpath
+.project
+lib
 
 *.out
 *.o
