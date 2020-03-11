@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+pre,
+code {
+  font-family: monospace, monospace;
+}
+
+pre {
+  overflow: auto;
+}
+
+pre > code {
+  background-color: #cfcdcd;
+  display: inline-block;
+  padding: 1rem;
+  word-wrap: normal;
+}
+
+/*# sourceMappingURL=style.css.map */
